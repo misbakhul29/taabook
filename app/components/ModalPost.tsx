@@ -20,7 +20,7 @@ const ModalPost: React.FC<ModalProps> = ({ isOpen, onClose, children, title }) =
                         <CloseIcon className="text-gray-600" sx={{ fontSize: 20 }} />
                     </button>
                 </div>
-                <div className="flex flex-1 p-4">
+                <div className="flex flex-1">
                     {children}
                 </div>
             </div>
