@@ -18,7 +18,7 @@ export const Header = () => {
     const currentPath = usePathname();
 
     return (
-        <header className="absolute z-50 flex w-full items-center justify-between gap-12 bg-white text-gray-800 shadow-sm px-4">
+        <header className="fixed z-50 flex w-full items-center justify-between gap-12 bg-white text-gray-800 shadow-sm px-4">
             <div className="flex flex-none w-1/4 items-center gap-2 py-2">
                 <Image src={"/icons/logo.svg"} alt={"logo"} width={40} height={40} />
                 <div className="relative flex flex-none w-3/4 gap-1 items-center bg-gray-200 rounded-full px-2 overflow-hidden">
